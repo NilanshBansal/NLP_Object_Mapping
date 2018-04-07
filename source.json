@@ -1,0 +1,2333 @@
+{
+    "type": "RootNode",
+    "children": [
+        {
+            "type": "ParagraphNode",
+            "children": [
+                {
+                    "type": "SentenceNode",
+                    "children": [
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "HORRIBLE",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 1,
+                                            "offset": 0
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 9,
+                                            "offset": 8
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 9,
+                                    "offset": 8
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "JJ"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 9,
+                                    "offset": 8
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 10,
+                                    "offset": 9
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "CUSTOMER",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 10,
+                                            "offset": 9
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 18,
+                                            "offset": 17
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 10,
+                                    "offset": 9
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 18,
+                                    "offset": 17
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 18,
+                                    "offset": 17
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 19,
+                                    "offset": 18
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "SERVICE",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 19,
+                                            "offset": 18
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 26,
+                                            "offset": 25
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 19,
+                                    "offset": 18
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "PunctuationNode",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 27,
+                                    "offset": 26
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        }
+                    }
+                },
+                {
+                    "type": "WhiteSpaceNode",
+                    "value": " ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 27,
+                            "offset": 26
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        }
+                    }
+                },
+                {
+                    "type": "SentenceNode",
+                    "children": [
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "I",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 28,
+                                            "offset": 27
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 29,
+                                            "offset": 28
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 28,
+                                    "offset": 27
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 29,
+                                    "offset": 28
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "PRP"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 29,
+                                    "offset": 28
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 30,
+                                    "offset": 29
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "recently",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 30,
+                                            "offset": 29
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 38,
+                                            "offset": 37
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 30,
+                                    "offset": 29
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 38,
+                                    "offset": 37
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 38,
+                                    "offset": 37
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "had",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 39,
+                                            "offset": 38
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 42,
+                                            "offset": 41
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VBD"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 43,
+                                    "offset": 42
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "an",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 43,
+                                            "offset": 42
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 45,
+                                            "offset": 44
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 43,
+                                    "offset": 42
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 45,
+                                    "offset": 44
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 45,
+                                    "offset": 44
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 46,
+                                    "offset": 45
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "an",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 46,
+                                            "offset": 45
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 48,
+                                            "offset": 47
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 46,
+                                    "offset": 45
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 48,
+                                    "offset": 47
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 48,
+                                    "offset": 47
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 49,
+                                    "offset": 48
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "issue",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 49,
+                                            "offset": 48
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 54,
+                                            "offset": 53
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 49,
+                                    "offset": 48
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 54,
+                                    "offset": 53
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 54,
+                                    "offset": 53
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 55,
+                                    "offset": 54
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "where",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 55,
+                                            "offset": 54
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 60,
+                                            "offset": 59
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 55,
+                                    "offset": 54
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 60,
+                                    "offset": 59
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "WRB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 60,
+                                    "offset": 59
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 61,
+                                    "offset": 60
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "the",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 61,
+                                            "offset": 60
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 64,
+                                            "offset": 63
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 61,
+                                    "offset": 60
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 64,
+                                    "offset": 63
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 64,
+                                    "offset": 63
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 65,
+                                    "offset": 64
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "bike",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 65,
+                                            "offset": 64
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 69,
+                                            "offset": 68
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 65,
+                                    "offset": 64
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 69,
+                                    "offset": 68
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 69,
+                                    "offset": 68
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 70,
+                                    "offset": 69
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "could",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 70,
+                                            "offset": 69
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 75,
+                                            "offset": 74
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 70,
+                                    "offset": 69
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 75,
+                                    "offset": 74
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "MD"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 75,
+                                    "offset": 74
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 76,
+                                    "offset": 75
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "not",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 76,
+                                            "offset": 75
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 79,
+                                            "offset": 78
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 76,
+                                    "offset": 75
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 79,
+                                    "offset": 78
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 79,
+                                    "offset": 78
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 80,
+                                    "offset": 79
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "connect",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 80,
+                                            "offset": 79
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 87,
+                                            "offset": 86
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 80,
+                                    "offset": 79
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 87,
+                                    "offset": 86
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 87,
+                                    "offset": 86
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 88,
+                                    "offset": 87
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "saying",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 88,
+                                            "offset": 87
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 94,
+                                            "offset": 93
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 88,
+                                    "offset": 87
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 94,
+                                    "offset": 93
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VBG"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 94,
+                                    "offset": 93
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 95,
+                                    "offset": 94
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "it",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 95,
+                                            "offset": 94
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 97,
+                                            "offset": 96
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 95,
+                                    "offset": 94
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 97,
+                                    "offset": 96
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "PRP"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 97,
+                                    "offset": 96
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 98,
+                                    "offset": 97
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "could",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 98,
+                                            "offset": 97
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 103,
+                                            "offset": 102
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 98,
+                                    "offset": 97
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 103,
+                                    "offset": 102
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "MD"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 103,
+                                    "offset": 102
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 104,
+                                    "offset": 103
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "not",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 104,
+                                            "offset": 103
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 107,
+                                            "offset": 106
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 104,
+                                    "offset": 103
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 107,
+                                    "offset": 106
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 107,
+                                    "offset": 106
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 108,
+                                    "offset": 107
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "find",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 108,
+                                            "offset": 107
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 112,
+                                            "offset": 111
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 108,
+                                    "offset": 107
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 112,
+                                    "offset": 111
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 112,
+                                    "offset": 111
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 113,
+                                    "offset": 112
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "my",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 113,
+                                            "offset": 112
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 115,
+                                            "offset": 114
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 113,
+                                    "offset": 112
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 115,
+                                    "offset": 114
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "PRP$"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 115,
+                                    "offset": 114
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 116,
+                                    "offset": 115
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "subscription",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 116,
+                                            "offset": 115
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 128,
+                                            "offset": 127
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 116,
+                                    "offset": 115
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 128,
+                                    "offset": 127
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "PunctuationNode",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 128,
+                                    "offset": 127
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 129,
+                                    "offset": 128
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 28,
+                            "offset": 27
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 129,
+                            "offset": 128
+                        }
+                    }
+                },
+                {
+                    "type": "WhiteSpaceNode",
+                    "value": " ",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 129,
+                            "offset": 128
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 130,
+                            "offset": 129
+                        }
+                    }
+                },
+                {
+                    "type": "SentenceNode",
+                    "children": [
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "The",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 130,
+                                            "offset": 129
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 133,
+                                            "offset": 132
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 130,
+                                    "offset": 129
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 133,
+                                    "offset": 132
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 133,
+                                    "offset": 132
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 134,
+                                    "offset": 133
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "wi",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 134,
+                                            "offset": 133
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 136,
+                                            "offset": 135
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "PunctuationNode",
+                                    "value": "-",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 136,
+                                            "offset": 135
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 137,
+                                            "offset": 136
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "TextNode",
+                                    "value": "fi",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 137,
+                                            "offset": 136
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 139,
+                                            "offset": 138
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 134,
+                                    "offset": 133
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 139,
+                                    "offset": 138
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 139,
+                                    "offset": 138
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 140,
+                                    "offset": 139
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "worked",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 140,
+                                            "offset": 139
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 146,
+                                            "offset": 145
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 140,
+                                    "offset": 139
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 146,
+                                    "offset": 145
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VBD"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 146,
+                                    "offset": 145
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 147,
+                                    "offset": 146
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "perfectly",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 147,
+                                            "offset": 146
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 156,
+                                            "offset": 155
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 147,
+                                    "offset": 146
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 156,
+                                    "offset": 155
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 156,
+                                    "offset": 155
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 157,
+                                    "offset": 156
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "fine",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 157,
+                                            "offset": 156
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 161,
+                                            "offset": 160
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 157,
+                                    "offset": 156
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 161,
+                                    "offset": 160
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "JJ"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 161,
+                                    "offset": 160
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 162,
+                                    "offset": 161
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "and",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 162,
+                                            "offset": 161
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 165,
+                                            "offset": 164
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 162,
+                                    "offset": 161
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 165,
+                                    "offset": 164
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "CC"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 165,
+                                    "offset": 164
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 166,
+                                    "offset": 165
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "after",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 166,
+                                            "offset": 165
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 171,
+                                            "offset": 170
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 166,
+                                    "offset": 165
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 171,
+                                    "offset": 170
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "IN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 171,
+                                    "offset": 170
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 172,
+                                    "offset": 171
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "turning",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 172,
+                                            "offset": 171
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 179,
+                                            "offset": 178
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 172,
+                                    "offset": 171
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 179,
+                                    "offset": 178
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VBG"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 179,
+                                    "offset": 178
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 180,
+                                    "offset": 179
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "on",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 180,
+                                            "offset": 179
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 182,
+                                            "offset": 181
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 180,
+                                    "offset": 179
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 182,
+                                    "offset": 181
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "IN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 182,
+                                    "offset": 181
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 183,
+                                    "offset": 182
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "and",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 183,
+                                            "offset": 182
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 186,
+                                            "offset": 185
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 183,
+                                    "offset": 182
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 186,
+                                    "offset": 185
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "CC"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 186,
+                                    "offset": 185
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 187,
+                                    "offset": 186
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "off",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 187,
+                                            "offset": 186
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 190,
+                                            "offset": 189
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 187,
+                                    "offset": 186
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 190,
+                                    "offset": 189
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "IN"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 190,
+                                    "offset": 189
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 191,
+                                    "offset": 190
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "repeatedly",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 191,
+                                            "offset": 190
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 201,
+                                            "offset": 200
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 191,
+                                    "offset": 190
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 201,
+                                    "offset": 200
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 201,
+                                    "offset": 200
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 202,
+                                    "offset": 201
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "this",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 202,
+                                            "offset": 201
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 206,
+                                            "offset": 205
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 202,
+                                    "offset": 201
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 206,
+                                    "offset": 205
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 206,
+                                    "offset": 205
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 207,
+                                    "offset": 206
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "still",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 207,
+                                            "offset": 206
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 212,
+                                            "offset": 211
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 207,
+                                    "offset": 206
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 212,
+                                    "offset": 211
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 212,
+                                    "offset": 211
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 213,
+                                    "offset": 212
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "did",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 213,
+                                            "offset": 212
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 216,
+                                            "offset": 215
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 213,
+                                    "offset": 212
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 216,
+                                    "offset": 215
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VBD"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 216,
+                                    "offset": 215
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 217,
+                                    "offset": 216
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "not",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 217,
+                                            "offset": 216
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 220,
+                                            "offset": 219
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 217,
+                                    "offset": 216
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 220,
+                                    "offset": 219
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "RB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 220,
+                                    "offset": 219
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 221,
+                                    "offset": 220
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "resolve",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 221,
+                                            "offset": 220
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 228,
+                                            "offset": 227
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 221,
+                                    "offset": 220
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 228,
+                                    "offset": 227
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "VB"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 228,
+                                    "offset": 227
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 229,
+                                    "offset": 228
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "the",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 229,
+                                            "offset": 228
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 232,
+                                            "offset": 231
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 229,
+                                    "offset": 228
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 232,
+                                    "offset": 231
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 232,
+                                    "offset": 231
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 233,
+                                    "offset": 232
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "an",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 233,
+                                            "offset": 232
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 235,
+                                            "offset": 234
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 233,
+                                    "offset": 232
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 235,
+                                    "offset": 234
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "DT"
+                            }
+                        },
+                        {
+                            "type": "WhiteSpaceNode",
+                            "value": " ",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 235,
+                                    "offset": 234
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 236,
+                                    "offset": 235
+                                }
+                            }
+                        },
+                        {
+                            "type": "WordNode",
+                            "children": [
+                                {
+                                    "type": "TextNode",
+                                    "value": "issue",
+                                    "position": {
+                                        "start": {
+                                            "line": 1,
+                                            "column": 236,
+                                            "offset": 235
+                                        },
+                                        "end": {
+                                            "line": 1,
+                                            "column": 241,
+                                            "offset": 240
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 236,
+                                    "offset": 235
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 241,
+                                    "offset": 240
+                                }
+                            },
+                            "data": {
+                                "partOfSpeech": "NN"
+                            }
+                        },
+                        {
+                            "type": "PunctuationNode",
+                            "value": ".",
+                            "position": {
+                                "start": {
+                                    "line": 1,
+                                    "column": 241,
+                                    "offset": 240
+                                },
+                                "end": {
+                                    "line": 1,
+                                    "column": 242,
+                                    "offset": 241
+                                }
+                            }
+                        }
+                    ],
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 130,
+                            "offset": 129
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 242,
+                            "offset": 241
+                        }
+                    }
+                }
+            ],
+            "position": {
+                "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                },
+                "end": {
+                    "line": 1,
+                    "column": 242,
+                    "offset": 241
+                }
+            }
+        }
+    ],
+    "position": {
+        "start": {
+            "line": 1,
+            "column": 1,
+            "offset": 0
+        },
+        "end": {
+            "line": 1,
+            "column": 242,
+            "offset": 241
+        }
+    }
+}
