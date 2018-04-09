@@ -3,6 +3,7 @@ let part_of_speech_map = (require('./config')).part_of_speech_map
 
 const getPunctuationNode = word => {
     let token = {};
+    let beginOffset;
     if (word.position && word.position.start) {
         beginOffset = word.position.start.offset
     }
@@ -18,6 +19,31 @@ const getPunctuationNode = word => {
     return token;
 }
 
+const getWordNode = word => {
+    let tagType;
+    let beginOffset;
+    let contentValue;
+    if (word.position && word.position.start) {
+        beginOffset = word.position.start.offset
+    }
+    if (word.children && word.children[0] && word.children[0].type == 'TextNode') {
+        contentValue = word.children[0].value;
+    }
+    if (word.data) {
+        tagType = part_of_speech_map[word.data.partOfSpeech] || "UNKNOWN"
+    }
+    token = {
+        text: {
+            content: contentValue,
+            beginOffset: beginOffset
+        },
+        partOfSpeech: {
+            tag: tagType
+        }
+    }
+    return token;
+}
+
 const createTargetData = (source) => {
     let token = {};
     let targetObj = { tokens: [] };
@@ -27,32 +53,11 @@ const createTargetData = (source) => {
                 paragraph.children.forEach((sentence) => {
                     if (sentence.type == 'SentenceNode' && sentence.children && sentence.children.length > 0) {
                         sentence.children.forEach((word) => {
-                            let beginOffset;
-                            let contentValue;
                             if (word.type == 'PunctuationNode') {
                                 targetObj.tokens.push(getPunctuationNode(word));
                             }
                             else if (word.type == 'WordNode') {
-                                let tagType;
-                                if (word.position && word.position.start) {
-                                    beginOffset = word.position.start.offset
-                                }
-                                if (word.children && word.children[0] && word.children[0].type == 'TextNode') {
-                                    contentValue = word.children[0].value;
-                                }
-                                if (word.data) {
-                                    tagType = part_of_speech_map[word.data.partOfSpeech] || "UNKNOWN"
-                                }
-                                token = {
-                                    text: {
-                                        content: contentValue,
-                                        beginOffset: beginOffset
-                                    },
-                                    partOfSpeech: {
-                                        tag: tagType
-                                    }
-                                }
-                                targetObj.tokens.push(token);
+                                targetObj.tokens.push(getWordNode(word));
                             }
                         })
                     }
