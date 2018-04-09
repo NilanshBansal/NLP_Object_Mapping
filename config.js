@@ -1,4 +1,4 @@
-exports.map={
+exports.part_of_speech_map={
     "NN":"NOUN",
     "NNP":"NOUN",
     "NNPS":"NOUN",
