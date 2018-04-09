@@ -1,4 +1,4 @@
-{
+exports.map={
     "NN":"NOUN",
     "NNP":"NOUN",
     "NNPS":"NOUN",

@@ -1,5 +1,5 @@
 let source = require ('./source.json');
-let part_of_speech_map= require('./part_of_speech_map')
+let part_of_speech_map= (require('./config')).map
 
 const createTargetData = (source) =>{
     let eachToken={};
@@ -35,9 +35,9 @@ const createTargetData = (source) =>{
                                 if(eachWord.children && eachWord.children[0] && eachWord.children[0].type=='TextNode'){
                                     contentValue=eachWord.children[0].value;
                                 }
-                                if(eachWord.data && part_of_speech_map[eachWord.data.partOfSpeech]){
-                                    tagType=part_of_speech_map[eachWord.data.partOfSpeech]
-                                }
+                                if(eachWord.data ){
+                                    tagType=part_of_speech_map[eachWord.data.partOfSpeech] || "UNKNOWN"
+                                }  
                                 eachToken={
                                     text:{
                                         content:contentValue,
