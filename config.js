@@ -39,3 +39,5 @@ exports.part_of_speech_map={
     "IN":"ADP"
 
 }
+
+exports.text="HORRIBLE CUSTOMER SERVICE. I recently had an an issue where the bike could not connect saying it could not find my subscription. The wi-fi worked perfectly fine and after turning on and off repeatedly this still did not resolve the an issue.";

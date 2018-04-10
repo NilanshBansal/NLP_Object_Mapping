@@ -1,13 +1,13 @@
 let source = require('./source.json');
 let part_of_speech_map = (require('./config')).part_of_speech_map
+let text=(require('./config')).text
 
 const getPunctuationNode = word => {
-    let token = {};
     let beginOffset;
     if (word.position && word.position.start) {
         beginOffset = word.position.start.offset
     }
-    token = {
+    let token = {
         text: {
             content: word.value,
             beginOffset: beginOffset
@@ -45,10 +45,8 @@ const getWordNode = word => {
             tag: tagType
         }
     }
-
     return wordObj;
 }
-
 
 const getEntities = (word,beginOffset,contentValue)=>{
     let type="COMMON";
@@ -79,15 +77,35 @@ const getEntities = (word,beginOffset,contentValue)=>{
     return entity;
 }
 
+const getSentences = (sentence) =>{
+    let beginOffset;
+    let endOffset;
+    if(sentence.position && sentence.position.start && sentence.position.end){
+        beginOffset=sentence.position.start.offset;
+        endOffset=sentence.position.end.offset;
+    }
+    let sentenceObj={
+        text:{
+            content:text.substring(beginOffset,endOffset),
+            beginOffset:beginOffset
+        },
+        sentiment:{
+            magnitude:0,
+            score:0
+        }
+    };
+    return sentenceObj;
+}
+
 const createTargetData = (source) => {
-    let token = {};
     let wordObj={};
-    let targetObj = { tokens: [] , entities:[]};
-    if (source && source.type === 'RootNode' && source.children && source.children.length > 0) {
+    let targetObj = { tokens: [] , entities:[],sentences:[]};
+    if (source && source.type === 'RootNode' && source.children && source.children.length) {
         source.children.forEach((paragraph) => {
-            if (paragraph.type === 'ParagraphNode' && paragraph.children && paragraph.children.length > 0) {
+            if (paragraph.type === 'ParagraphNode' && paragraph.children && paragraph.children.length ) {
                 paragraph.children.forEach((sentence) => {
-                    if (sentence.type === 'SentenceNode' && sentence.children && sentence.children.length > 0) {
+                    if (sentence.type === 'SentenceNode' && sentence.children && sentence.children.length) {
+                        targetObj.sentences.push(getSentences(sentence));
                         sentence.children.forEach((word) => {
                             if (word.type === 'PunctuationNode') {
                                 targetObj.tokens.push(getPunctuationNode(word));
