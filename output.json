@@ -1,0 +1,604 @@
+{
+  "tokens": [
+    {
+      "text": {
+        "content": "HORRIBLE",
+        "beginOffset": 0
+      },
+      "partOfSpeech": {
+        "tag": "ADJ"
+      }
+    },
+    {
+      "text": {
+        "content": "CUSTOMER",
+        "beginOffset": 9
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": "SERVICE",
+        "beginOffset": 18
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": ".",
+        "beginOffset": 25
+      },
+      "partOfSpeech": {
+        "tag": "PUNCT"
+      }
+    },
+    {
+      "text": {
+        "content": "I",
+        "beginOffset": 27
+      },
+      "partOfSpeech": {
+        "tag": "PRON"
+      }
+    },
+    {
+      "text": {
+        "content": "recently",
+        "beginOffset": 29
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "had",
+        "beginOffset": 38
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "an",
+        "beginOffset": 42
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "an",
+        "beginOffset": 45
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "issue",
+        "beginOffset": 48
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": "where",
+        "beginOffset": 54
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "the",
+        "beginOffset": 60
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "bike",
+        "beginOffset": 64
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": "could",
+        "beginOffset": 69
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "not",
+        "beginOffset": 75
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "connect",
+        "beginOffset": 79
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "saying",
+        "beginOffset": 87
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "it",
+        "beginOffset": 94
+      },
+      "partOfSpeech": {
+        "tag": "PRON"
+      }
+    },
+    {
+      "text": {
+        "content": "could",
+        "beginOffset": 97
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "not",
+        "beginOffset": 103
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "find",
+        "beginOffset": 107
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "my",
+        "beginOffset": 112
+      },
+      "partOfSpeech": {
+        "tag": "PRON"
+      }
+    },
+    {
+      "text": {
+        "content": "subscription",
+        "beginOffset": 115
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": ".",
+        "beginOffset": 127
+      },
+      "partOfSpeech": {
+        "tag": "PUNCT"
+      }
+    },
+    {
+      "text": {
+        "content": "The",
+        "beginOffset": 129
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "wi",
+        "beginOffset": 133
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": "worked",
+        "beginOffset": 139
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "perfectly",
+        "beginOffset": 146
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "fine",
+        "beginOffset": 156
+      },
+      "partOfSpeech": {
+        "tag": "ADJ"
+      }
+    },
+    {
+      "text": {
+        "content": "and",
+        "beginOffset": 161
+      },
+      "partOfSpeech": {
+        "tag": "CONJ"
+      }
+    },
+    {
+      "text": {
+        "content": "after",
+        "beginOffset": 165
+      },
+      "partOfSpeech": {
+        "tag": "ADP"
+      }
+    },
+    {
+      "text": {
+        "content": "turning",
+        "beginOffset": 171
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "on",
+        "beginOffset": 179
+      },
+      "partOfSpeech": {
+        "tag": "ADP"
+      }
+    },
+    {
+      "text": {
+        "content": "and",
+        "beginOffset": 182
+      },
+      "partOfSpeech": {
+        "tag": "CONJ"
+      }
+    },
+    {
+      "text": {
+        "content": "off",
+        "beginOffset": 186
+      },
+      "partOfSpeech": {
+        "tag": "ADP"
+      }
+    },
+    {
+      "text": {
+        "content": "repeatedly",
+        "beginOffset": 190
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "this",
+        "beginOffset": 201
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "still",
+        "beginOffset": 206
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "did",
+        "beginOffset": 212
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "not",
+        "beginOffset": 216
+      },
+      "partOfSpeech": {
+        "tag": "ADV"
+      }
+    },
+    {
+      "text": {
+        "content": "resolve",
+        "beginOffset": 220
+      },
+      "partOfSpeech": {
+        "tag": "VERB"
+      }
+    },
+    {
+      "text": {
+        "content": "the",
+        "beginOffset": 228
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "an",
+        "beginOffset": 232
+      },
+      "partOfSpeech": {
+        "tag": "DET"
+      }
+    },
+    {
+      "text": {
+        "content": "issue",
+        "beginOffset": 235
+      },
+      "partOfSpeech": {
+        "tag": "NOUN"
+      }
+    },
+    {
+      "text": {
+        "content": ".",
+        "beginOffset": 240
+      },
+      "partOfSpeech": {
+        "tag": "PUNCT"
+      }
+    }
+  ],
+  "entities": [
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "CUSTOMER",
+      "mentions": [
+        {
+          "text": {
+            "content": "CUSTOMER",
+            "beginOffset": 9
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "SERVICE",
+      "mentions": [
+        {
+          "text": {
+            "content": "SERVICE",
+            "beginOffset": 18
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "issue",
+      "mentions": [
+        {
+          "text": {
+            "content": "issue",
+            "beginOffset": 48
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "bike",
+      "mentions": [
+        {
+          "text": {
+            "content": "bike",
+            "beginOffset": 64
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "subscription",
+      "mentions": [
+        {
+          "text": {
+            "content": "subscription",
+            "beginOffset": 115
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "wi",
+      "mentions": [
+        {
+          "text": {
+            "content": "wi",
+            "beginOffset": 133
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    },
+    {
+      "type": "OTHER",
+      "metadata": {},
+      "salience": 0,
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      },
+      "name": "issue",
+      "mentions": [
+        {
+          "text": {
+            "content": "issue",
+            "beginOffset": 235
+          },
+          "sentiment": {
+            "magnitude": 0,
+            "score": 0
+          },
+          "type": "COMMON"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "text": {
+        "content": "HORRIBLE CUSTOMER SERVICE.",
+        "beginOffset": 0
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "I recently had an an issue where the bike could not connect saying it could not find my subscription.",
+        "beginOffset": 27
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    },
+    {
+      "text": {
+        "content": "The wi-fi worked perfectly fine and after turning on and off repeatedly this still did not resolve the an issue.",
+        "beginOffset": 129
+      },
+      "sentiment": {
+        "magnitude": 0,
+        "score": 0
+      }
+    }
+  ]
+}
