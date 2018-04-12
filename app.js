@@ -22,7 +22,7 @@ const getPunctuationNode = word => {
 const getWordNode = word => {
     let tagType;
     let beginOffset;
-    let contentValue;
+    let contentValue="";
     let wordObj={token:{},entity:{}};
 
     if (word.position && word.position.start) {
@@ -30,14 +30,9 @@ const getWordNode = word => {
     }
     
     if(word.children && word.children.length){
-        word.children.forEach((subWord,index)=>{
+        word.children.forEach((subWord)=>{
             if(subWord.type==="TextNode" || subWord.type==="PunctuationNode"){
-                if(index>0){
-                    contentValue += subWord.value;
-                }
-                else{
-                    contentValue=subWord.value;
-                }
+                contentValue += subWord.value;
             }
         })
     }
@@ -135,7 +130,8 @@ const createTargetData = (source) => {
             }
         })
     }
+    console.log("time: ",new Date() - start);
     return targetObj;
 }
-
+const start=new Date();
 console.log(JSON.stringify(createTargetData(source), null, 2));
