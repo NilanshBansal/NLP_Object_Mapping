@@ -24,12 +24,24 @@ const getWordNode = word => {
     let beginOffset;
     let contentValue;
     let wordObj={token:{},entity:{}};
+
     if (word.position && word.position.start) {
         beginOffset = word.position.start.offset
     }
-    if (word.children && word.children[0] && word.children[0].type === 'TextNode') {
-        contentValue = word.children[0].value;
+    
+    if(word.children && word.children.length){
+        word.children.forEach((subWord,index)=>{
+            if(subWord.type==="TextNode" || subWord.type==="PunctuationNode"){
+                if(index>0){
+                    contentValue += subWord.value;
+                }
+                else{
+                    contentValue=subWord.value;
+                }
+            }
+        })
     }
+
     if (word.data) {
         tagType = part_of_speech_map[word.data.partOfSpeech] || "UNKNOWN"
         if(tagType==="NOUN"){

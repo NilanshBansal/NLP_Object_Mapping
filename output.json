@@ -227,7 +227,7 @@
     },
     {
       "text": {
-        "content": "wi",
+        "content": "wi-fi",
         "beginOffset": 133
       },
       "partOfSpeech": {
@@ -530,11 +530,11 @@
         "magnitude": 0,
         "score": 0
       },
-      "name": "wi",
+      "name": "wi-fi",
       "mentions": [
         {
           "text": {
-            "content": "wi",
+            "content": "wi-fi",
             "beginOffset": 133
           },
           "sentiment": {
